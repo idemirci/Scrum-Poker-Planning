@@ -1,0 +1,34 @@
+.active-story {
+    float: left;
+    width: 25%;
+    text-align: left;
+
+    fieldset {
+        height: 500px;
+        margin-top: 3%;
+
+        .story-board {
+            display: grid;
+            grid-template-rows: 100% 100% 100%;
+            grid-template-columns: 25% 25% 25% 25%;
+
+            .point-box {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: #aaa;
+
+                .button-box {
+                    width: 40px;
+                    height: 40px;
+                    border: 2px solid gainsboro;
+                }
+            }
+        }
+
+        .story-text {
+            margin-top: 90%;
+            margin-left: 30%;
+        }
+    }
+}

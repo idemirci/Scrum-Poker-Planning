@@ -1,0 +1,24 @@
+.scrum-master-panel {
+    float: right;
+    width: 25%;
+    text-align: left;
+    fieldset {
+        height: 500px;
+        margin-top: 8.5%;
+    }
+    .active-panel {
+        width: 100%;
+        height: 100%;
+
+        .voter-area {
+            width: 100%;
+            height: 40%;
+            list-style-type: none;
+
+            .user-list-item {
+                font-weight: bold;
+                padding-top: 3%;
+            }
+        }
+    }
+}

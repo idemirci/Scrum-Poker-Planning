@@ -1,0 +1,26 @@
+.confirm-score {
+    width: 100%;
+    height: 50%;
+
+    .end-story-score {
+        width: 100%;
+        padding-top: 10%;
+        padding-left: 20%;
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+
+        .confirm-text {
+            width: 100%;
+            font-weight: bold;
+            padding-left: 10%;
+        }
+
+        .confirm-button {
+            font-weight: bold;
+            margin-left: 5%;
+        }
+    }
+}

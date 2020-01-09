@@ -1,0 +1,48 @@
+.menu {
+    .form-menu {
+        width: 100%;
+        height: 100%;
+        .story-input {
+            margin-left: 5%;
+        }
+
+        .voters-input {
+            margin-left: 5%;
+        }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
+
+        .session {
+            float: left;
+            width: 45%;
+        }
+
+        .voters {
+            width: 45%;
+            float: right;
+            text-align: right;
+        }
+
+        .stories {
+            padding-top: 3%;
+            width: 100%;
+
+            .storyListArea {
+                width: 100%;
+                height: 500px;
+            }
+        }
+
+        .startButton {
+            background: blue;
+            float: right;
+            width: 20%;
+            height: 10%;
+            color: white;
+            font-size: 2em;
+        }
+    }
+}
